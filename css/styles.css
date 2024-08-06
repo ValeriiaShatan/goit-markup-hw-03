@@ -193,6 +193,20 @@ color:#FFFFFF;
     padding-bottom: 120px;
 }
 
+.section-title .visually-hidden {
+
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 
 .section-title {
     font-weight: 700;
@@ -209,11 +223,11 @@ color:#FFFFFF;
     justify-content: center;
 }
 .benefits-item {
-  
+ flex-basis: calc((100% - 3*24px) / 4); 
 }
 
 .benefits-list:first-child {  
-    flex-basis: calc((100% - 3*24px) / 4);
+    
 
 }
 .item-title { 
@@ -255,9 +269,6 @@ color:#FFFFFF;
     gap: 24px;
     justify-content:center;
     padding-bottom: 120px;
-    
-    
-
 }
 .team-list-item {
     background-color: #FFFFFF; 
