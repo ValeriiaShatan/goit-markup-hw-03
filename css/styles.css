@@ -224,6 +224,7 @@ color:#FFFFFF;
 /* #region Section 2 */
 .team-section { 
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-section .container {
@@ -239,7 +240,7 @@ color:#FFFFFF;
     color: #2E2F42;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-list {
     display:flex;
@@ -283,6 +284,7 @@ color:#FFFFFF;
     
 }
 .section-title {
+    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
@@ -328,6 +330,7 @@ color:#FFFFFF;
    
     justify-content: start;
     align-items: flex-start;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
