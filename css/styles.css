@@ -102,11 +102,7 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding top: 24px;
-    padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
-    
+    padding: 24px 0;
 }
 
 .menu-link:hover, .menu-link:focus, .menu-link:active {
