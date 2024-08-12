@@ -1,8 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;}
-
 body {
     font-family: "Roboto", sans-serif ;
     color: #434455;
@@ -82,6 +77,8 @@ a {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    
+
 }
 .logo-span {
     color: #2E2F42;
@@ -105,7 +102,10 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 24px 0;
+    padding top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
     
 }
 
@@ -193,21 +193,15 @@ color:#FFFFFF;
     padding-bottom: 120px;
 }
 
-.section-title .visually-hidden {
+.visually-hidden { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
 
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
 }
-
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -215,7 +209,6 @@ color:#FFFFFF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    overflow: hidden;
 }
 .benefits-list {
     display:flex;
@@ -226,10 +219,7 @@ color:#FFFFFF;
  flex-basis: calc((100% - 3*24px) / 4); 
 }
 
-.benefits-list:first-child {  
-    
 
-}
 .item-title { 
     font-weight: 500;
     font-size: 20px;
@@ -253,7 +243,7 @@ color:#FFFFFF;
 
 }
 
-.section-title { 
+.team-section-title { 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -261,14 +251,12 @@ color:#FFFFFF;
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .team-list {
     display:flex;
     gap: 24px;
     justify-content:center;
-    padding-bottom: 120px;
 }
 .team-list-item {
     background-color: #FFFFFF; 
@@ -282,7 +270,6 @@ color:#FFFFFF;
 
 .item-title {
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
     
 }
@@ -292,7 +279,7 @@ color:#FFFFFF;
     margin-bottom: 32px;
 }
 .card-content {
-    padding: 32px 0;
+    padding: 32px 0px;
 }
 
 /* #endregion Section 2 */
@@ -329,11 +316,8 @@ color:#FFFFFF;
     align-items: center;
     width: calc((100% - 24*5) / 6);
     height: 420px;
-    width: 360px;
-    height: 420px;
 }
 .portfolio-item-title {
-    margin-top: 32px;
     padding-left: 16px;
     margin-bottom: 8px;;
 }
@@ -341,7 +325,6 @@ color:#FFFFFF;
 .portfolio-p {
     margin-top: 8px;
     padding-left: 16px;
-    padding-bottom: 32px;
 
 }
 /* #region Section 3 */
